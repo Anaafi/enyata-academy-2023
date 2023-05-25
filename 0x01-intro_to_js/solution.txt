@@ -1,0 +1,56 @@
+ Question 1
+
+ 'let', 'const', and 'var' are used to declare variables in javascript.
+
+ * 'let' - is use to declare variables that can be reassigned
+ * 'const' - is use to declare variables that should not be reassigned
+ * 'var' - is use to declare variables that can be reassigned but due to it hoisting behavior it can cause unexpected bugs in your application.
+
+ Question 2
+
+We can use a variable after it has been defined by referencing its name in your code.
+After declaring a variable you can access its value.
+-Example-
+let newVariable = 10; //variable declaration
+let outCome = newVariable + 10; //using the variable in an operation
+console.log(outCome) // outPut: 20
+
+Question 3
+
+We can declare a string by enclosing characters within single quotes (') or double quotes (")
+-Example-
+let myString1 = "Welcome to javascript";
+let myString2 = 'Hello World!';
+let myString3 = '25';
+
+Question 4
+
+Yes, both single quotes and double quotes can be used interchangeably to create strings 
+but it is your personal preference to choose one of them.
+And it also adviced to choose one quote style in your code for consistency.
+
+Question 5
+
+"9" - because 9 is ecnlosed in quotes, its datatype becomes a string.
+9 - 9 is not ecnlosed in quotes, therefore its datatype is an integer or number.
+
+Question 6
+
+* Declaration - is the act of introducing a new variable or identifier. 
+It done by using the following keywords; let , var and const.
+-Example-
+let newVariable;
+
+* Redeclaration - is the act of declaring a variable again within the same scope.
+-Example-
+let newVariable = 2; // declaration
+let newVariable = 4; // Redeclaration
+
+* Assignment - refers to assigning a value to a variable, it involves using the '=' assignment operator.
+-Example-
+let newVariable = 5; // assigning a value 5 to a variable 'newVariable'
+
+* Reassignment - refers to the act of changing the value of an existing variable.
+-Example-
+let myVariable = 10; // assignment
+let newVariable = 15; // reassignment
