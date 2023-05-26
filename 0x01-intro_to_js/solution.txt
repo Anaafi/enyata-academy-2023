@@ -53,4 +53,4 @@ let newVariable = 5; // assigning a value 5 to a variable 'newVariable'
 * Reassignment - refers to the act of changing the value of an existing variable.
 -Example-
 let myVariable = 10; // assignment
-let newVariable = 15; // reassignment
+myVariable = 15; // reassignment
